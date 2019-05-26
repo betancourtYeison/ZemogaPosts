@@ -1,0 +1,53 @@
+{
+  "name": "ZemogaPosts",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
+  },
+  "dependencies": {
+    "react": "16.6.3",
+    "react-native": "^0.58.6",
+    "react-native-gesture-handler": "^1.0.15",
+    "react-native-modal": "^9.0.0",
+    "react-native-swipeout": "^2.3.6",
+    "react-native-vector-icons": "^6.4.2",
+    "react-navigation": "^3.3.0",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-actions": "^2.6.4",
+    "redux-persist": "^5.10.0",
+    "redux-promise": "^0.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/runtime": "^7.4.4",
+    "babel-eslint": "^9.0.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.7.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-config-react-app": "^3.0.4",
+    "eslint-plugin-flowtype": "^2.50.3",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "flow-bin": "^0.40.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "0.48.1",
+    "prettier": "^1.14.3",
+    "react-app": "^1.1.2",
+    "react-native-config": "^0.11.5",
+    "react-test-renderer": "16.5.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "assets/fonts"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": [
+    "react-app",
+    "plugin:jsx-a11y/recommended",
+    "plugin:prettier/recommended",
+    "prettier/react"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["jsx-a11y", "prettier"],
+  "rules": {
+    "linebreak-style": ["error", "unix"],
+    "array-bracket-spacing": ["error", "never"],
+    "brace-style": ["error", "1tbs"],
+    "keyword-spacing": ["error"],
+    "space-before-blocks": ["error"],
+    "react/no-danger": "error",
+    "react/no-access-state-in-setstate": "error",
+    "react/no-typos": "error",
+    "react/jsx-closing-bracket-location": "error",
+    "jsx-a11y/label-has-for": [
+      "error",
+      {
+        "components": ["Label"],
+        "required": {
+          "every": ["id"]
+        },
+        "allowChildren": false
+      }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "es5",
+        "singleQuote": true,
+        "printWidth": 120,
+        "tabWidth": 2,
+        "semi": false
+      }
+    ]
+  }
+}
